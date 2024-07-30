@@ -19,9 +19,6 @@
 		91F220232C09320C00B0B66C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 91F220222C09320C00B0B66C /* Base */; };
 		91F220252C09320D00B0B66C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91F220242C09320D00B0B66C /* Assets.xcassets */; };
 		91F220282C09320D00B0B66C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 91F220272C09320D00B0B66C /* Base */; };
-		91F220332C09320D00B0B66C /* QuizzieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F220322C09320D00B0B66C /* QuizzieTests.swift */; };
-		91F2203D2C09320D00B0B66C /* QuizzieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F2203C2C09320D00B0B66C /* QuizzieUITests.swift */; };
-		91F2203F2C09320D00B0B66C /* QuizzieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F2203E2C09320D00B0B66C /* QuizzieUITestsLaunchTests.swift */; };
 		91F2204E2C09B02800B0B66C /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F2204D2C09B02800B0B66C /* Question.swift */; };
 		91F220502C09B05000B0B66C /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F2204F2C09B05000B0B66C /* QuizBrain.swift */; };
 /* End PBXBuildFile section */
@@ -55,10 +52,7 @@
 		91F220272C09320D00B0B66C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91F220292C09320D00B0B66C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91F2202E2C09320D00B0B66C /* QuizzieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizzieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		91F220322C09320D00B0B66C /* QuizzieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzieTests.swift; sourceTree = "<group>"; };
 		91F220382C09320D00B0B66C /* QuizzieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizzieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		91F2203C2C09320D00B0B66C /* QuizzieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzieUITests.swift; sourceTree = "<group>"; };
-		91F2203E2C09320D00B0B66C /* QuizzieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzieUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		91F2204D2C09B02800B0B66C /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		91F2204F2C09B05000B0B66C /* QuizBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,8 +88,6 @@
 				916410662C0AA22800449D4C /* answerCorrectSound.mp3 */,
 				916410672C0AA22800449D4C /* answerWrongSound.mp3 */,
 				91F2201A2C09320C00B0B66C /* Quizzie */,
-				91F220312C09320D00B0B66C /* QuizzieTests */,
-				91F2203B2C09320D00B0B66C /* QuizzieUITests */,
 				91F220192C09320C00B0B66C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,23 +115,6 @@
 				91F220292C09320D00B0B66C /* Info.plist */,
 			);
 			path = Quizzie;
-			sourceTree = "<group>";
-		};
-		91F220312C09320D00B0B66C /* QuizzieTests */ = {
-			isa = PBXGroup;
-			children = (
-				91F220322C09320D00B0B66C /* QuizzieTests.swift */,
-			);
-			path = QuizzieTests;
-			sourceTree = "<group>";
-		};
-		91F2203B2C09320D00B0B66C /* QuizzieUITests */ = {
-			isa = PBXGroup;
-			children = (
-				91F2203C2C09320D00B0B66C /* QuizzieUITests.swift */,
-				91F2203E2C09320D00B0B66C /* QuizzieUITestsLaunchTests.swift */,
-			);
-			path = QuizzieUITests;
 			sourceTree = "<group>";
 		};
 		91F2204B2C09AFD300B0B66C /* View */ = {
@@ -316,7 +291,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91F220332C09320D00B0B66C /* QuizzieTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,8 +298,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91F2203F2C09320D00B0B66C /* QuizzieUITestsLaunchTests.swift in Sources */,
-				91F2203D2C09320D00B0B66C /* QuizzieUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
